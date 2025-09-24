@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet</title>
+ 
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      color: #333;
+      background: #fff;
+    }
+
+    h1, h2, h3, h4, h5 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+    }
+
+    a {
+      color: #DECE31;
+      text-decoration: none;
+    }
+
+    /* ====== HEADER ====== */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: #000;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 10%;
+    }
+
+    header .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: #DECE31;
+    }
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+
+    nav a {
+      color: #fff;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #DECE31;
+    }
+
+    /* ====== BUTTONS ====== */
+    .btn-get-started {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 25px;
+      background: #DECE31;
+      color: #000;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn-get-started:hover {
+      background: #cabb25;
+    }
+
+    /* ====== INTRO ====== */
+    #intro {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 10%;
+      background: #f9f9f9;
+      flex-wrap: wrap;
+    }
+
+    #intro h2 {
+      font-size: 28px;
+      line-height: 1.4;
+      margin-bottom: 20px;
+    }
+
+    /* ====== SECTIONS ====== */
+    .section-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-header h3 {
+      font-size: 26px;
+      margin-bottom: 15px;
+    }
+
+    .section-header p {
+      font-size: 16px;
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.5;
+    }
+
+    /* ====== CARDS ====== */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .col {
+      flex: 1 1 300px;
+      max-width: 300px;
+      padding: 10px;
+    }
+
+    .card {
+      background: #000;
+      color: #fff;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* ====== COUNTERS ====== */
+    .counters {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+      flex-wrap: wrap;
+    }
+
+    .counters div {
+      text-align: center;
+    }
+
+    .counters span {
+      font-size: 28px;
+      font-weight: bold;
+      color: #DECE31;
+    }
+
+
+    /* ====== FAQ ====== */
+    #faq {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 50px 10%;
+      align-items: flex-start;
+    }
+
+    #faq img {
+      max-width: 100%;
+      flex: 1;
+    }
+
+    .accordion-text {
+      flex: 1;
+      min-width: 280px;
+    }
+
+    .faq-text {
+      list-style: none;
+      padding: 0;
+    }
+
+    .faq-text li {
+      margin-bottom: 15px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .question {
+      font-weight: bold;
+      cursor: pointer;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+
+    .faq-text p {
+      display: none;
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    .faq-text li.active p {
+      display: block;
+    }
+
+   /* ====== FOOTER ====== */
+  footer { background:#111827; color:white; padding:30px 20px; text-align:center; }
+  footer p { margin:5px 0; font-size:0.9rem; color:#9ca3af; }
+
+  </style>
+</head>
+
+<body>
+  <!-- HEADER / MENU -->
+  <header>
+    <div class="logo"> 
+      <img src="HGMG.jpg"  alt="LOGO" width="100" height="100" > </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Page_d'accueil">Accueil</a></li>
+        <li><a href="Page entreprise ">Entreprise</a></li>
+        <li><a href="Notre groupe">Notre groupe</a></li>
+        <li><a href="Iris_presentation">Ecole</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#cours">Cours</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- INTRO -->
+  <section id="intro">
+    <div>
+      <h2>Page d'accueil<br><span><a href="#partners">Presentation</a></span></h2>
+      <a href="#why-us" class="btn-get-started">Continuer</a>
+    </div>
+  </section>
+
+  <!-- ALERT -->
+
+
+  <main>
+    <!-- WHY US -->
+    <section id="why-us">
+      <div class="section-header">
+        <h3> Notre groupe ?</h3>
+        <p><span style="color: #DECE31;">HGMG</span> On étaient en rentrée décalée</p>
+      </div>
+
+      <div class="row">
+  <div class="col">
+    <div class="card">
+      <a href="https://www.instagram.com/harviniii/"> <img src="images.jpeg" class="card-img-top" alt="insta"width="40" height="40"> </a> <br>
+      <a href="https://www.linkedin.com/in/harvini-souce-93b52b351/"> <img src="linkedin.webp" class="card-img-top" alt="linkedin"width="50" height="50"> </a>
+      <div class="card-body">
+        <h5 class="card-title">SOUCE Harvini</h5>
+      </div>
+    </div>
+  </div>
+        <div class="col">
+          <div class="card">
+       <a href="https://www.instagram.com/gaetan.bj"> <img src="images.jpeg" class="card-img-top" alt="insta"width="40" height="40"> </a> <br>
+        <a href="https://www.linkedin.com/in/marcus-kla-792b4b357?"> <img src="linkedin.webp" class="card-img-top" alt="linkedin"width="50" height="50"> </a>
+      <div class="card-body">
+        <h5 class="card-title">KLA Marcus</h5>
+      </div>
+      </div>
+       </div>
+
+       <div class="col">
+          <div class="card">
+      <a href="https://www.instagram.com/gaetan.bj"> <img src="images.jpeg" class="card-img-top" alt="insta"width="40" height="40"> </a> <br>
+      <a href="https://www.linkedin.com/in/gaëtan-benoit-jannin-042661310"> <img src="linkedin.webp" class="card-img-top" alt="linkedin"width="50" height="50"> </a>
+      <div class="card-body">
+        <h5 class="card-title"> BENOIT-JANNIN Gaetan </h5>
+      </div>
+      </div>
+      </div>
+
+     <div class="col">
+          <div class="card">
+      <a href="https://www.instagram.com/gad.1710?igsh=MTJtcDhoMHI3NTdjcw%3D%3D&utm_source=qr"> <img src="images.jpeg" class="card-img-top" alt="insta"width="40" height="40"> </a> <br>
+      <a href="https://www.linkedin.com/in/gad-declair-nick-massamba/"> <img src="linkedin.webp" class="card-img-top" alt="linkedin"width="50" height="50"> </a>
+      <div class="card-body">
+        <h5 class="card-title">MASSAMBA Gad</h5>
+      </div>
+      </div>
+      </div>
+
+      </div>
+     </div>
+  
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div><strong>IRIS</strong> — École Supérieure Informatique</div>
+    <p>Adresse : 6- 8 Impasse des 2 Cousins,Paris 17e 
+    • Tél : 01 23 45 67 89 • contact@ecoleiris.fr</p>
+    <p>Mentions légales • Plan du site • Réseaux sociaux Instagram https://www.instagram.com/irisecole/</p>
+  </footer>
+
+
+</body>
+</html>
