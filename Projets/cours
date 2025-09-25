@@ -1,0 +1,48 @@
+<main>
+      <div class="main_cours">
+        <div class="texte">
+          <p>Découvrez une sélection de cours accessibles à tous.</p>
+        </div>
+
+        <div class="elements_cours">
+          <div class="description">
+            <p>Revisions</p>
+          </div>
+          <div class="cours">
+            <img src="./images/fichier algo.png" />
+          </div>
+          <br />
+          <div class="cours">
+            <img src="./images/procedure.png" />
+          </div>
+          <br />
+          <div class="cours">
+            <img src="./images/tableau.png" />
+          </div>
+          <br />
+        </div>
+
+        <div class="elements_cours">
+          <div class="description">
+            <p>Cours PHP</p>
+          </div>
+          <div class="cours">
+            <img src="./images/rectangle class php.png" />
+          </div>
+          <br />
+          <div class="cours">
+            <img src="./images/rectangle index.png" />
+          </div>
+          <br />
+        </div>
+
+        <div class="elements_cours">
+          <div class="description">
+            <p>Cours java</p>
+          </div>
+          <div class="cours">
+            <img src="./images/rectangle java.png" />
+          </div>
+          <br />
+        </div>
+      </div>
