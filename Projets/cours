@@ -124,7 +124,7 @@
             <p>Revisions</p>
           </div>
           <div class="cours">
-             <img src="fichier algo.png" > </a>
+             <img src="fichier_algo.png" > </a>
           </div>
           <br />
           <div class="cours">
@@ -142,11 +142,11 @@
             <p>Cours PHP</p>
           </div>
           <div class="cours">
-            <img src="rectangle class php.png" />
+            <img src="rectangle_class_php.png" />
           </div>
           <br />
           <div class="cours">
-            <img src="rectangle index.png" />
+            <img src="rectangle_index.png" />
           </div>
           <br />
         </div>
@@ -156,7 +156,7 @@
             <p>Cours java</p>
           </div>
           <div class="cours">
-            <img src="rectangle java.png" />
+            <img src="rectangle_java.png" />
           </div>
           <br />
         </div>
