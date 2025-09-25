@@ -71,8 +71,8 @@
         <p><strong>Durée :</strong> Cinq semaines</p>
         <p><strong>Mode :</strong> Distanciel</p>
         <p><strong>Mission :</strong> Création d'un site web complet pendant la durée du stage.</p>
-      </div>
 
+      </div>
       <!-- Harvini SOUCE -->
       <div class="card">
         <h3>Harvini SOUCE — Stage</h3>
@@ -84,9 +84,15 @@
           <li>Création d'un gestionnaire de tâches (non fini)</li>
           <li>Création des pages en polonais et français avec bouton de choix de langues</li>
           <li>Refonte du site avec un design noir et doré</li>
+          <br>
+           <div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+           <img src="image.png" alt="Image description" style="max-width: 400px; height: auto;">
+    </div>
         </ul>
       </div>
     </div>
+    
   </section>
 
   <!-- Footer -->
