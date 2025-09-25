@@ -52,7 +52,7 @@
         <li><a href="Notre groupe">Notre groupe</a></li>
         <li><a href="Iris_presentation">Ecole</a></li>
         <li><a href="contact">Contact</a></li>
-        <li><a href="#cours">Cours</a></li>
+        <li><a href="cours">Cours</a></li>
       </ul>
     </nav>
   </header>
@@ -97,3 +97,4 @@
 
 </body>
 </html>
+

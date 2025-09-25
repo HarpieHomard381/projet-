@@ -148,7 +148,7 @@ footer p { margin:5px 0; font-size:0.9rem; color:#9ca3af; }
         <li><a href="Notre groupe">Notre groupe</a></li>
         <li><a href="Iris_presentation">Ecole</a></li>
         <li><a href="contact">Contact</a></li>
-        <li><a href="#cours">Cours</a></li>
+        <li><a href="cours">Cours</a></li>
       </ul>
     </nav>
   </header>
@@ -202,7 +202,7 @@ footer p { margin:5px 0; font-size:0.9rem; color:#9ca3af; }
       </div>
     </main>
      <footer>
-    <div><strong>HGMG 7</strong> — Projet scolaire</div>
+    <div><strong>HGMG </strong> — Projet scolaire</div>
     <p>Mentions légales • Plan du site • Réseaux sociaux</p>
   </footer>
 

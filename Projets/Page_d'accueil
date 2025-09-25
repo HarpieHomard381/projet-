@@ -210,7 +210,6 @@
   </style>
 </head>
 
-
 <body>
   <!-- HEADER / MENU -->
   <header>
@@ -223,8 +222,8 @@
         <li><a href="Page entreprise ">Entreprise</a></li>
         <li><a href="Notre groupe">Notre groupe</a></li>
         <li><a href="Iris_presentation">Ecole</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#cours">Cours</a></li>
+        <li><a href="contact">Contact</a></li>
+        <li><a href="cours">Cours</a></li>
       </ul>
     </nav>
   </header>
@@ -233,7 +232,11 @@
   <section id="intro">
     <div>
       <h2>Page d'accueil<br><span><a href="#partners">Presentation</a></span></h2>
-      <a href="#why-us" class="btn-get-started">Continuer</a>
+      <a href="#why-us" class="btn-get-started">Continuer</a> </div>
+      <div>
+          <div style="display: flex; align-items: center; justify-content: space-between;">
+      <img src="photo.pdf" alt="Image description" style="max-width: 400px; height: auto;">
+    </div>
     </div>
   </section>
 
