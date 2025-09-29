@@ -143,7 +143,7 @@ footer p { margin:5px 0; font-size:0.9rem; color:#9ca3af; }
     </div>
     <nav>
       <ul>
-        <li><a href="Page_d'accueil">Accueil</a></li>
+        <li><a href="index">Accueil</a></li>
         <li><a href="Page entreprise">Entreprise</a></li>
         <li><a href="Notre groupe">Notre groupe</a></li>
         <li><a href="Iris_presentation">Ecole</a></li>
