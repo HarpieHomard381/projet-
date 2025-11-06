@@ -39,6 +39,28 @@
     nav a:hover {
       color: #DECE31;
     }
+
+      .skill {
+      margin-bottom: 10px;
+    }
+    .label {
+      margin-bottom: 4px;
+      font-weight: 600;
+    }
+    .bar {
+      position: relative;
+      background: #e5e7eb;
+      border-radius: 6px;
+      height: 10px;
+      overflow: hidden;
+      max-width: 500px; 
+    }
+    .bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #4d576d, #494d53);
+      border-radius: 6px;
+    }
+    
 	
 		body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
 		.container { max-width: 1000px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 2px 8px #ccc; }
@@ -77,24 +99,85 @@
 				<a href="CV alternance GAD.pdf" target="_blank">Voir le CV</a><br>
 				<a href="mailto:alice.martin@email.com">alice.martin@email.com</a><br>
 				<a href="https://www.linkedin.com/in/gad-declair-nick-massamba/" target="_blank">LinkedIn</a>
+        <br>
+        <br>
+         <div class="niveau">
+           <div class="label">Réseaux</div>
+           <div class="bar"><div class="bar-fill" style="width:50%"></div></div>
+           <br>
+           <div class="label">SQL</div>
+           <div class="bar"><div class="bar-fill" style="width:50%"></div></div>
+           <br>
+           <div class="label">BDD</div>
+           <div class="bar"><div class="bar-fill" style="width:50%"></div></div>
+         </div>
+        <br>
+        <img src="Gad.jpg"  alt="photo" width="100" height="100" > </a>
 			</div>
+
 			<div class="member">
-				<h2>BENOIT-JANNIN Gaëtan</h2>   
+				<h2>BENOIT-JANNIN Gaetan</h2>   
 				<a href="CV gaetan.pdf" target="_blank">Voir le CV</a><br>
-				<a href="mailto:bruno.lefevre@email.com">bruno.lefevre@email.com</a><br>
+				<a href="mailto:bruno.lefevre@email.com">bruno.lefevre@email.com</a>
+        <br>
 				<a href="https://www.linkedin.com/in/gaëtan-benoit-jannin-042661310" target="_blank">LinkedIn</a>
+        <br>
+        <br>
+         <div class="niveau">
+           <div class="label">Réseaux</div>
+           <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+           <br>
+           <div class="label">SQL</div>
+           <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+           <br>
+           <div class="label">BDD</div>
+           <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+         </div>
+        <br>
+        <img src="Gaetan.jpg"  alt="image" width="100" height="100" > </a>
 			</div>
+
 			<div class="member">
-				<h2>Kla Marcus</h2>
+				<h2>KLA Marcus</h2>
 				<a href="CV info.pdf" target="_blank">Voir le CV</a><br>
 				<a href="mailto:clara.dubois@email.com">clara.dubois@email.com</a><br>
 				<a href="https://www.linkedin.com/in/marcus-kla-792b4b357?" target="_blank">LinkedIn</a>
+        <br>
+        <br>
+         <div class="niveau">
+           <div class="label">Réseaux</div>
+           <div class="bar"><div class="bar-fill" style="width:50%"></div></div>
+           <br>
+           <div class="label">SQL</div>
+           <div class="bar"><div class="bar-fill" style="width:50%"></div></div>
+           <br>
+           <div class="label">BDD</div>
+           <div class="bar"><div class="bar-fill" style="width:50%"></div></div>
+         </div>
+        <br>
+
+        <img src="Marcus.jpg"  alt="photo" width="100" height="100" > </a>
 			</div>
+
 			<div class="member">
 				<h2>SOUCE Harvini</h2>
 				<a href="CV harvini.pdf" target="_blank">Voir le CV</a><br>
 				<a href="mailto:david.moreau@email.com">david.moreau@email.com</a><br>
 				<a href="https://www.linkedin.com/in/harvini-souce-93b52b351/" target="_blank">LinkedIn</a>
+         <br>
+        <br>
+         <div class="niveau">
+           <div class="label">Réseaux</div>
+           <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+           <br>
+           <div class="label">SQL</div>
+           <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+           <br>
+           <div class="label">BDD</div>
+           <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+         </div>
+        <br>
+        <img src="Vini.jpg"  alt="photo" width="100" height="100" > </a>
 			</div>
 		</div>
 	</div>
